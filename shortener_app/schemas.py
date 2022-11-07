@@ -12,6 +12,7 @@ class URL(URLBase):
     class Config:
         orm_mode = True
 
+
 class URLInfo(URL):
     url: str
     admin_url: str
